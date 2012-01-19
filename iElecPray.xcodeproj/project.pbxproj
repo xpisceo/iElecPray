@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F606CD4114C80D5700DF3B4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F606CD4014C80D5700DF3B4B /* UIKit.framework */; };
+		F606CD4314C80D5700DF3B4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F606CD4214C80D5700DF3B4B /* Foundation.framework */; };
+		F606CD4514C80D5700DF3B4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F606CD4414C80D5700DF3B4B /* CoreGraphics.framework */; };
+		F606CD4B14C80D5700DF3B4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F606CD4914C80D5700DF3B4B /* InfoPlist.strings */; };
+		F606CD4D14C80D5700DF3B4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F606CD4C14C80D5700DF3B4B /* main.m */; };
+		F606CD5114C80D5700DF3B4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F606CD5014C80D5700DF3B4B /* AppDelegate.m */; };
+		F606CD5414C80D5700DF3B4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F606CD5314C80D5700DF3B4B /* ViewController.m */; };
+		F606CD5714C80D5700DF3B4B /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F606CD5514C80D5700DF3B4B /* ViewController_iPhone.xib */; };
+		F606CD5A14C80D5700DF3B4B /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F606CD5814C80D5700DF3B4B /* ViewController_iPad.xib */; };
+		F606CD6214C80D5700DF3B4B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F606CD6114C80D5700DF3B4B /* SenTestingKit.framework */; };
+		F606CD6314C80D5700DF3B4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F606CD4014C80D5700DF3B4B /* UIKit.framework */; };
+		F606CD6414C80D5700DF3B4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F606CD4214C80D5700DF3B4B /* Foundation.framework */; };
+		F606CD6C14C80D5700DF3B4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F606CD6A14C80D5700DF3B4B /* InfoPlist.strings */; };
+		F606CD6F14C80D5700DF3B4B /* iElecPrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F606CD6E14C80D5700DF3B4B /* iElecPrayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F606CD6514C80D5700DF3B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F606CD3314C80D5700DF3B4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F606CD3B14C80D5700DF3B4B;
+			remoteInfo = iElecPray;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F606CD3C14C80D5700DF3B4B /* iElecPray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iElecPray.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F606CD4014C80D5700DF3B4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F606CD4214C80D5700DF3B4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F606CD4414C80D5700DF3B4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F606CD4814C80D5700DF3B4B /* iElecPray-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iElecPray-Info.plist"; sourceTree = "<group>"; };
+		F606CD4A14C80D5700DF3B4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F606CD4C14C80D5700DF3B4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F606CD4E14C80D5700DF3B4B /* iElecPray-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iElecPray-Prefix.pch"; sourceTree = "<group>"; };
+		F606CD4F14C80D5700DF3B4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F606CD5014C80D5700DF3B4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F606CD5214C80D5700DF3B4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F606CD5314C80D5700DF3B4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F606CD5614C80D5700DF3B4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		F606CD5914C80D5700DF3B4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		F606CD6014C80D5700DF3B4B /* iElecPrayTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iElecPrayTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F606CD6114C80D5700DF3B4B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F606CD6914C80D5700DF3B4B /* iElecPrayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iElecPrayTests-Info.plist"; sourceTree = "<group>"; };
+		F606CD6B14C80D5700DF3B4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F606CD6D14C80D5700DF3B4B /* iElecPrayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iElecPrayTests.h; sourceTree = "<group>"; };
+		F606CD6E14C80D5700DF3B4B /* iElecPrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iElecPrayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F606CD3914C80D5700DF3B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F606CD4114C80D5700DF3B4B /* UIKit.framework in Frameworks */,
+				F606CD4314C80D5700DF3B4B /* Foundation.framework in Frameworks */,
+				F606CD4514C80D5700DF3B4B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F606CD5C14C80D5700DF3B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F606CD6214C80D5700DF3B4B /* SenTestingKit.framework in Frameworks */,
+				F606CD6314C80D5700DF3B4B /* UIKit.framework in Frameworks */,
+				F606CD6414C80D5700DF3B4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F606CD3114C80D5700DF3B4B = {
+			isa = PBXGroup;
+			children = (
+				F606CD4614C80D5700DF3B4B /* iElecPray */,
+				F606CD6714C80D5700DF3B4B /* iElecPrayTests */,
+				F606CD3F14C80D5700DF3B4B /* Frameworks */,
+				F606CD3D14C80D5700DF3B4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F606CD3D14C80D5700DF3B4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F606CD3C14C80D5700DF3B4B /* iElecPray.app */,
+				F606CD6014C80D5700DF3B4B /* iElecPrayTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F606CD3F14C80D5700DF3B4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F606CD4014C80D5700DF3B4B /* UIKit.framework */,
+				F606CD4214C80D5700DF3B4B /* Foundation.framework */,
+				F606CD4414C80D5700DF3B4B /* CoreGraphics.framework */,
+				F606CD6114C80D5700DF3B4B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F606CD4614C80D5700DF3B4B /* iElecPray */ = {
+			isa = PBXGroup;
+			children = (
+				F606CD4F14C80D5700DF3B4B /* AppDelegate.h */,
+				F606CD5014C80D5700DF3B4B /* AppDelegate.m */,
+				F606CD5214C80D5700DF3B4B /* ViewController.h */,
+				F606CD5314C80D5700DF3B4B /* ViewController.m */,
+				F606CD5514C80D5700DF3B4B /* ViewController_iPhone.xib */,
+				F606CD5814C80D5700DF3B4B /* ViewController_iPad.xib */,
+				F606CD4714C80D5700DF3B4B /* Supporting Files */,
+			);
+			path = iElecPray;
+			sourceTree = "<group>";
+		};
+		F606CD4714C80D5700DF3B4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F606CD4814C80D5700DF3B4B /* iElecPray-Info.plist */,
+				F606CD4914C80D5700DF3B4B /* InfoPlist.strings */,
+				F606CD4C14C80D5700DF3B4B /* main.m */,
+				F606CD4E14C80D5700DF3B4B /* iElecPray-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F606CD6714C80D5700DF3B4B /* iElecPrayTests */ = {
+			isa = PBXGroup;
+			children = (
+				F606CD6D14C80D5700DF3B4B /* iElecPrayTests.h */,
+				F606CD6E14C80D5700DF3B4B /* iElecPrayTests.m */,
+				F606CD6814C80D5700DF3B4B /* Supporting Files */,
+			);
+			path = iElecPrayTests;
+			sourceTree = "<group>";
+		};
+		F606CD6814C80D5700DF3B4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F606CD6914C80D5700DF3B4B /* iElecPrayTests-Info.plist */,
+				F606CD6A14C80D5700DF3B4B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F606CD3B14C80D5700DF3B4B /* iElecPray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F606CD7214C80D5700DF3B4B /* Build configuration list for PBXNativeTarget "iElecPray" */;
+			buildPhases = (
+				F606CD3814C80D5700DF3B4B /* Sources */,
+				F606CD3914C80D5700DF3B4B /* Frameworks */,
+				F606CD3A14C80D5700DF3B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iElecPray;
+			productName = iElecPray;
+			productReference = F606CD3C14C80D5700DF3B4B /* iElecPray.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F606CD5F14C80D5700DF3B4B /* iElecPrayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F606CD7514C80D5700DF3B4B /* Build configuration list for PBXNativeTarget "iElecPrayTests" */;
+			buildPhases = (
+				F606CD5B14C80D5700DF3B4B /* Sources */,
+				F606CD5C14C80D5700DF3B4B /* Frameworks */,
+				F606CD5D14C80D5700DF3B4B /* Resources */,
+				F606CD5E14C80D5700DF3B4B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F606CD6614C80D5700DF3B4B /* PBXTargetDependency */,
+			);
+			name = iElecPrayTests;
+			productName = iElecPrayTests;
+			productReference = F606CD6014C80D5700DF3B4B /* iElecPrayTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F606CD3314C80D5700DF3B4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F606CD3614C80D5700DF3B4B /* Build configuration list for PBXProject "iElecPray" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F606CD3114C80D5700DF3B4B;
+			productRefGroup = F606CD3D14C80D5700DF3B4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F606CD3B14C80D5700DF3B4B /* iElecPray */,
+				F606CD5F14C80D5700DF3B4B /* iElecPrayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F606CD3A14C80D5700DF3B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F606CD4B14C80D5700DF3B4B /* InfoPlist.strings in Resources */,
+				F606CD5714C80D5700DF3B4B /* ViewController_iPhone.xib in Resources */,
+				F606CD5A14C80D5700DF3B4B /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F606CD5D14C80D5700DF3B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F606CD6C14C80D5700DF3B4B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F606CD5E14C80D5700DF3B4B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F606CD3814C80D5700DF3B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F606CD4D14C80D5700DF3B4B /* main.m in Sources */,
+				F606CD5114C80D5700DF3B4B /* AppDelegate.m in Sources */,
+				F606CD5414C80D5700DF3B4B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F606CD5B14C80D5700DF3B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F606CD6F14C80D5700DF3B4B /* iElecPrayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F606CD6614C80D5700DF3B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F606CD3B14C80D5700DF3B4B /* iElecPray */;
+			targetProxy = F606CD6514C80D5700DF3B4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F606CD4914C80D5700DF3B4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F606CD4A14C80D5700DF3B4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F606CD5514C80D5700DF3B4B /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F606CD5614C80D5700DF3B4B /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F606CD5814C80D5700DF3B4B /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F606CD5914C80D5700DF3B4B /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		F606CD6A14C80D5700DF3B4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F606CD6B14C80D5700DF3B4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F606CD7014C80D5700DF3B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F606CD7114C80D5700DF3B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F606CD7314C80D5700DF3B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iElecPray/iElecPray-Prefix.pch";
+				INFOPLIST_FILE = "iElecPray/iElecPray-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F606CD7414C80D5700DF3B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iElecPray/iElecPray-Prefix.pch";
+				INFOPLIST_FILE = "iElecPray/iElecPray-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F606CD7614C80D5700DF3B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iElecPray.app/iElecPray";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iElecPray/iElecPray-Prefix.pch";
+				INFOPLIST_FILE = "iElecPrayTests/iElecPrayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F606CD7714C80D5700DF3B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iElecPray.app/iElecPray";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iElecPray/iElecPray-Prefix.pch";
+				INFOPLIST_FILE = "iElecPrayTests/iElecPrayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F606CD3614C80D5700DF3B4B /* Build configuration list for PBXProject "iElecPray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F606CD7014C80D5700DF3B4B /* Debug */,
+				F606CD7114C80D5700DF3B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F606CD7214C80D5700DF3B4B /* Build configuration list for PBXNativeTarget "iElecPray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F606CD7314C80D5700DF3B4B /* Debug */,
+				F606CD7414C80D5700DF3B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F606CD7514C80D5700DF3B4B /* Build configuration list for PBXNativeTarget "iElecPrayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F606CD7614C80D5700DF3B4B /* Debug */,
+				F606CD7714C80D5700DF3B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F606CD3314C80D5700DF3B4B /* Project object */;
+}
